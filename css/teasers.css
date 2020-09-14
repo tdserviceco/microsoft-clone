@@ -1,0 +1,93 @@
+.main-teasers-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+.main-teasers-container .main-teaser-cols {
+  width: 100%;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.main-teasers-container .main-teaser-cols:first-child {
+  padding-left: 0;
+}
+
+.main-teasers-container .main-teaser-cols:last-child {
+  padding-right: 0;
+}
+
+.main-teasers-container .main-teaser-cols .teaser-image img {
+  width: 100%;
+}
+
+.main-teasers-container .main-teaser-cols .teaser-image {
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.main-teasers-container .main-teaser-cols .teaser-text,
+.main-teasers-container .main-teaser-cols .teaser-links {
+  margin-bottom: 1.25rem;
+}
+
+
+.main-teasers-container .main-teaser-cols .teaser-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.top,
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.bottom {
+  flex: 3;
+}
+
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.top > .fas,
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.bottom > .fas {
+  padding-left: 0.2rem;
+} 
+
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.top a:after,
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.bottom a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transform: scale(0);
+  border-bottom: 0.010rem solid var(--link-color);
+}
+
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.top a:hover:after,
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.top a:focus:after,
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.bottom a:focus:after,
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.bottom a:hover:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  transform: scale(1);
+  border-bottom: 0.010rem solid var(--link-color);
+  transition: all var(--animation-speed) ease-in-out;
+
+} 
+
+
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.top a,
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.top,
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.bottom a,
+.main-teasers-container .main-teaser-cols .teaser-links .teaser-link.bottom {
+  position: relative;
+  color: var(--link-color);
+  font-size: 0.856rem;
+}
+
+

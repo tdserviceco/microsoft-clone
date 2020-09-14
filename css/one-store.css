@@ -1,0 +1,30 @@
+
+.main-one-store .main-one-store-content {
+  padding: 2rem 9rem;
+}
+
+.main-one-store .content-items {
+  padding: 1.875rem 11.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-one-store .content-items .item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.1rem;
+  text-align: center;
+  height: 100%;
+}
+
+.main-one-store .content-items .item a:hover,
+.main-one-store .content-items .item a:focus  {
+  text-decoration: underline;
+}
+
+.main-one-store .content-items .item span {
+  padding-top: 1rem;
+}

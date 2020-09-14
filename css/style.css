@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --header-height: 5rem;
+  --default-bg-color: #fff;
+  --default-link-color: #262626;
+  --default-text-color: #000;
+  --logo-size: 8.5625rem;
+  --max-width: 103.125rem;
+  --max-height: 37.86875rem;
+  --max-height-calc-hero: 3.75rem;
+  --primary-font: 'Source Sans Pro', sans-serif;
+  --hero-text-width: 33.125rem;
+  --hover-effect: rgba(0, 0, 0, 0.144);
+  --circle-height: 2.5rem;
+  --circle-width: 2.5rem;
+  --circle-bg-color: #fafafa;
+  --link-color: #0067b8;
+  --animation-speed: 200ms;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--default-text-color);
+  background: var(--default-bg-color);
+}
+
+a,
+a:visited {
+  color: var(--default-link-color);
+  text-decoration: none;
+  font-size: 0.8125rem;
+}
+
+ul, 
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: var(--header-height);
+}
+
+.main-container {
+  width: var(--max-width);
+  height: 100vh;
+}
+
+.hero-btn {
+  text-decoration: none;
+  background: var(--default-text-color);
+  color: var(--default-bg-color);
+  padding: 0.89rem 2.6rem;
+  transform: scale(1);
+  font-size: 1rem;
+}
