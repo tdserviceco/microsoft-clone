@@ -17,7 +17,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 
 .footer-links .country {
@@ -25,4 +25,28 @@
   flex-direction: row;
   justify-content: center;
   justify-items: center;
+}
+.footer-links .country .fa-globe-europe {
+  padding-right: 0.5rem;
+}
+
+.footer-links .footer-extra {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+.footer-links .footer-extra .footer-links-items {
+  display: flex;
+}
+
+.footer-links .footer-extra .footer-links-items .item {
+  padding-right: 1rem;
+}
+
+.footer-links .footer-extra .copyright,
+.footer-links .footer-extra .footer-links-items {
+  font-size: 0.6875rem
 }
