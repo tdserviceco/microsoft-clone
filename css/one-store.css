@@ -3,12 +3,8 @@
 }
 
 .main-one-store .content-items {
-  height: 100%;
-  width: 100%;
   padding: 1.875rem 11.25rem;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
 .main-one-store .content-items .item {
