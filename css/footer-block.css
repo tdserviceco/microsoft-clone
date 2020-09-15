@@ -10,7 +10,12 @@
 }
 
 .footer-list-items .item {
+  cursor: pointer;
   padding-top: 1.5rem;
+}
+
+.footer-list-items .item:hover {
+  text-decoration: underline;
 }
 
 .footer-links {
@@ -44,6 +49,10 @@
 
 .footer-links .footer-extra .footer-links-items .item {
   padding-right: 1rem;
+}
+
+.footer-links .footer-extra .footer-links-items .item:hover {
+  text-decoration: underline;
 }
 
 .footer-links .footer-extra .copyright,
