@@ -1,7 +1,8 @@
 @import "style.css";
-@import "menu.css";
+@import "header-block.css";
 @import "hero-slider.css";
 @import "one-store.css";
 @import "teasers.css";
 @import "hero.css";
-@import "social-media-block";
+@import "social-media-block.css";
+@import "footer-block.css";

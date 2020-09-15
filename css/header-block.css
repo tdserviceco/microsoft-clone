@@ -27,30 +27,23 @@
   align-items: center;
   justify-content: space-between;
 }
-.main-navigation .main-navigation-items,
-.main-navigation .main-navigation-ultilites-items,
-.main-navigation .main-navigation-ultilites-items .item-special {
+
+.main-navigation .main-navigation-items, .main-navigation .main-navigation-ultilites-items, .main-navigation .main-navigation-ultilites-items .item-special {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 
-.main-navigation .main-navigation-items .item,
-.main-navigation .main-navigation-ultilites-items .item {
+.main-navigation .main-navigation-items .item, .main-navigation .main-navigation-ultilites-items .item {
   padding: 0 1rem;
 }
 
-.main-navigation .main-navigation-items .item a,
-.main-navigation .main-navigation-ultilites-items .item a {
+.main-navigation .main-navigation-items .item a, .main-navigation .main-navigation-ultilites-items .item a {
   position: relative;
 }
 
-
-.main-navigation .main-navigation-items .item a:hover:before,
-.main-navigation .main-navigation-ultilites-items .item a:hover:before,
-.main-navigation .main-navigation-items .item a:focus:before,
-.main-navigation .main-navigation-ultilites-items .item a:focus:before {
+.main-navigation .main-navigation-items .item a:hover:before, .main-navigation .main-navigation-ultilites-items .item a:hover:before, .main-navigation .main-navigation-items .item a:focus:before, .main-navigation .main-navigation-ultilites-items .item a:focus:before {
   content: '';
   position: absolute;
   top: 1.125rem;

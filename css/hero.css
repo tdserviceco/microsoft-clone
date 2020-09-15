@@ -49,13 +49,43 @@
   margin-bottom: 1rem;
 }
 
-.hero-big .hero-big-content .hero-big-content-wrapper .hero-btn {
-  width: 10.125rem;
+.hero-big .hero-links {
+  margin-top: 2rem;
 }
 
-.hero-big:hover .hero-btn {
+.hero-big .hero-btn:hover {
   box-shadow: inset -25px -8px 76px -47px rgba(255,255,255,1);
-  transform: scale(1.1);
-  text-decoration: underline;
+  transition: all var(--animation-speed) ease-in-out;
+}
+
+.hero-big .hero-btn span {
+  position: relative;
+}
+
+.hero-big .hero-btn > .fa-angle-right {
+  padding-left: 1rem;
+}
+
+.hero-big .hero-btn span:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transform: scale(0);
+  border-bottom: 0.125rem solid var(--default-bg-color);
+  transition: all var(--animation-speed) ease-in-out;
+}
+
+.hero-big .hero-btn:hover span:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transform: scale(1);
+  border-bottom: 0.125rem solid var(--default-bg-color);
   transition: all var(--animation-speed) ease-in-out;
 }

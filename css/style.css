@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -24,6 +23,8 @@
   --circle-bg-color: #fafafa;
   --link-color: #0067b8;
   --animation-speed: 200ms;
+  --footer-bg-color: #f2f2f2;
+  --footer-default-color: #616161;
 }
 
 body {
@@ -32,15 +33,13 @@ body {
   background: var(--default-bg-color);
 }
 
-a,
-a:visited {
+a, a:visited {
   color: var(--default-link-color);
   text-decoration: none;
   font-size: 0.8125rem;
 }
 
-ul, 
-li {
+ul, li {
   list-style: none;
 }
 
@@ -53,21 +52,33 @@ li {
   margin: 0 auto;
 }
 
-.header {
+header {
   width: 100%;
-  height: var(--header-height);
+  height: 3.75rem;
+}
+
+footer {
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  background-color: var(--footer-bg-color);
 }
 
 .main-container {
-  width: var(--max-width);
+  /**fix this later*/
   height: 100vh;
+  width: 100%;
 }
 
 .hero-btn {
+  width: 10.125rem;
   text-decoration: none;
   background: var(--default-text-color);
   color: var(--default-bg-color);
-  padding: 0.89rem 2.6rem;
-  transform: scale(1);
+  padding: 0.89rem 2.5rem;
   font-size: 1rem;
+}
+
+.hero-btn:visited {
+  color: var(--default-bg-color);
 }

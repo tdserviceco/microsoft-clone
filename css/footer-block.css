@@ -1,0 +1,28 @@
+.footer-list-of-items {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  color: var(--footer-default-color);
+}
+
+.footer-list-items .footer-list-title {
+  font-size: 0.9375rem;
+}
+
+.footer-list-items .item {
+  padding-top: 1.5rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.footer-links .country {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}

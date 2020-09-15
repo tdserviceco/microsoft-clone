@@ -1,31 +1,38 @@
-
 .main-one-store .main-one-store-content {
   padding: 2rem 9rem;
 }
 
 .main-one-store .content-items {
+  height: 100%;
+  width: 100%;
   padding: 1.875rem 11.25rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.main-one-store .content-items .item a {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 1.1rem;
-  text-align: center;
+.main-one-store .content-items .item {
   height: 100%;
   width: 100%;
 }
 
-.main-one-store .content-items .item a:hover,
-.main-one-store .content-items .item a:focus  {
+.main-one-store .content-items .item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.main-one-store .content-items .item a:hover, .main-one-store .content-items .item a:focus {
   text-decoration: underline;
 }
 
-.main-one-store .content-items .item span {
-  padding-top: 0.5rem;
+.main-one-store .content-items .item-text {
+  padding-top: 1rem;
+}
+
+.main-one-store .content-items .item-text span {
+  display: flex;
+  justify-content: center;
 }
