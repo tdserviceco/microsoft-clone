@@ -1,0 +1,61 @@
+
+.hero-big {
+  width: 100%;
+  height: var(--max-height);
+  max-height: calc(100% - var(--max-height-calc-hero));
+  background:green;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hero-big:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/big-hero-computer.jpg') no-repeat center/cover;
+}
+
+
+.hero-big .hero-big-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-big .hero-big-content .hero-big-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: flex-end;
+  width: 40%;
+}
+
+
+.hero-big .hero-big-content .hero-big-title {
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.hero-big .hero-big-content .hero-big-text {
+  width: var(--hero-text-width);
+  font-size: var(--hero-text-size);
+  margin-bottom: 1rem;
+}
+
+.hero-big .hero-big-content .hero-big-content-wrapper .hero-btn {
+  width: 10.125rem;
+}
+
+.hero-big:hover .hero-btn {
+  box-shadow: inset -25px -8px 76px -47px rgba(255,255,255,1);
+  transform: scale(1.1);
+  text-decoration: underline;
+  transition: all var(--animation-speed) ease-in-out;
+}

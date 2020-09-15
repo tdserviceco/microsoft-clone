@@ -18,6 +18,7 @@
   font-size: 1.1rem;
   text-align: center;
   height: 100%;
+  width: 100%;
 }
 
 .main-one-store .content-items .item a:hover,
@@ -26,5 +27,5 @@
 }
 
 .main-one-store .content-items .item span {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }

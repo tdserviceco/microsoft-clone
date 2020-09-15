@@ -48,7 +48,7 @@
 }
 
 .main-hero-slider .main-hero-content .hero-text {
-  font-size: 1.125rem;
+  font-size: var(--hero-text-size);
   margin-bottom: 2rem;
   width: var(--hero-text-width);
 }
